@@ -17,6 +17,12 @@ Route::get('/', 'PrincipalController@principal');
 Route::get('/sobre-nos', 'SobreNosController@sobreNos');
 Route::get('/contato', 'ContatoController@contato');
 
+Route::get('/login', function() { return 'Login';});
+Route::get('/clientes', function() { return 'Clientes';});
+Route::get('/fornecedores', function() { return 'Fornecedores';});
+Route::get('/produtos', function() { return 'Produtos';});
+
+/*
 Route::get(
     'contato/{nome?}/{categoria_id}',
     function(
@@ -26,3 +32,5 @@ Route::get(
         echo "Estamos aqui: $nome - $categoria_id";
     }
 )->where('categoria_id','[0-9]+')->where('nome','[A-Za-z]+'); // informa que o parametro precisa ser de 0 a 9, do tipo número. O + indica que precisa ter apenas 1 caractere
+
+*/

@@ -12,3 +12,7 @@ Colocar a aplicação em modo manutenção é down, e up para voltar ao normal
 
 -   php artisan down
 -   php artisan up
+
+Listar todas as rotas
+
+-   php artisan route:list
