@@ -1,10 +1,10 @@
 # Iniciar o servidor
 
-## Rodar esse comando a baixo na pasta public, maneira padrão
+## Iniciar o servidor local: Rodar esse comando a baixo na pasta public do projeto, maneira padrão
 
 -   php -S localhost:8000
 
-## Rodar usando o artisan
+## Iniciar o servidor local com artisan, com ele não precisamos acessar a pasta public para rodar o comando
 
 -   php artisan serve --port=8000
 
