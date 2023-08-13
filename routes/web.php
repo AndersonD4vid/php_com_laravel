@@ -37,6 +37,12 @@ Route::get('/rota2', function(){
 })->name('site.rota2');
 
 
+// Rota de fallback, caso o usuário tente acessar uma rota inexistente, ele cai na rota de fallback onde tem alguma informação
+Route::fallback(function () {
+    echo '<center> <h1> A rota acessada não existe. <a href="'.route('site.index').'"> Cliqui aqui para ir para tela principal</a> </h1> </center';
+});
+
+
 /*
 Route::get(
     'contato/{nome?}/{categoria_id}',
