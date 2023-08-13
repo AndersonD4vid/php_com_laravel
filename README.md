@@ -1,4 +1,4 @@
-# Iniciar o servidor
+# Informações do projeto
 
 ## Iniciar o servidor local: Rodar esse comando a baixo na pasta public do projeto, maneira padrão
 
