@@ -21,6 +21,6 @@
 
 -   php artisan make:controller NomeController
 
-## Observação sobre a sitaxe blade
+## Observação sobre a sintaxe blade
 
 -   O blade é o motor de renderização de views do laravel. Através do blade temos acesso a uma sintaxe de programação php mais clean/enchuta. Facilitando a criação de páginas web dinâmicas, além disso o blade também possui um poderoso recurso de herança de templates que possibilita que extendam, modifiquem ou inclua outras views. Diferente de outros motores de renderização de views o blade, ele não impede o uso da sintaxe pura do php, ou seja é possível mas embora pouco usual utilizar a sintaxe blade e a sintaxe pura no php das views.
